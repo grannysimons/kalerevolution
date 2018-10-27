@@ -1,9 +1,29 @@
 .modal
 {
   position: absolute;
-  top: -200px;
-  left: 100px;
-  width: 300px;
+  top: -600px;
+  left: 30%;
+  width: 20%;
   height: 300px;
-  background-color: red;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  z-index: 10;
+}
+.modal .overlay
+{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left:0;
+  display: none;
+  z-index: -10;
+}
+.modal .close
+{
+  position: absolute;
+  top: 8px;
+  right: 10px;
 }

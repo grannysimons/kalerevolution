@@ -25,20 +25,24 @@
           Empezar
         </button>
         <div class="modal">
-          <form action="">
-            <label>Nombre y apellidos</label>
-            <input type="text" name="" id="">
-            <label>Email</label>
-            <input type="email" name="" id="">
-            <label>Dirección de envío</label>
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            <label>Número de cajas</label>
-            <input type="text" name="" id="">
-            <label>IBAN</label>
-            <input type="text" name="" id="">
-            <small>No enviaremos publicidad ni venderemos tus datos a terceros</small>
-          </form>
+          <div class="overlay"></div>
+          <div class="close">x</div>
+          <div class="content">
+            <form action="">
+              <label>Nombre y apellidos</label>
+              <input type="text" name="" id="">
+              <label>Email</label>
+              <input type="email" name="" id="">
+              <label>Dirección de envío</label>
+              <input type="text" name="" id="">
+              <input type="text" name="" id="">
+              <label>Número de cajas</label>
+              <input type="text" name="" id="">
+              <label>IBAN</label>
+              <input type="text" name="" id="">
+              <small>No enviaremos publicidad ni venderemos tus datos a terceros</small>
+            </form>
+          </div>
         </div>
       </div>
       <section class="properties">
@@ -74,19 +78,21 @@
       </section>
     </header>
     <section class="testimonials">
-      <figure class="slide1 slide active">
-        <p>"Poder recibir la kale de toda la semana me ha ayudado a organizar mi tiempo"</p>
-      </figure>
-      <figure class="slide2 slide">
-        <p>"Me tranquiliza saber que estoy consumiendo un producto respetuoso con el medio ambiente y con los
-          profesionales que lo cultivan"</p>
-      </figure>
-      <figure class="slide3 slide">
-        <p>"Las ideas de la campaña #kaleRevolution me han hecho la vida mucho más fácil"</p>
-      </figure>
-      <figure class="slide3 slide">
-        <p>"Por fin una empresa con responsabilidad social, que ofrece un producto bueno y de calidad"</p>
-      </figure>
+      <div class="slider">
+        <figure class="slide1 slide">
+          <p>"Poder recibir la kale de toda la semana me ha ayudado a organizar mi tiempo"</p>
+        </figure>
+        <figure class="slide2 slide">
+          <p>"Me tranquiliza saber que estoy consumiendo un producto respetuoso con el medio ambiente y con los
+            profesionales que lo cultivan"</p>
+        </figure>
+        <figure class="slide3 slide">
+          <p>"Las ideas de la campaña #kaleRevolution me han hecho la vida mucho más fácil"</p>
+        </figure>
+        <figure class="slide4 slide">
+          <p>"Por fin una empresa con responsabilidad social, que ofrece un producto bueno y de calidad"</p>
+        </figure>
+      </div>
     </section>
     <section class="instagram">
       <div class="banner">
@@ -141,6 +147,7 @@
       </div>
     </footer>
   </div>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
