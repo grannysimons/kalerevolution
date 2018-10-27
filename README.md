@@ -29,4 +29,6 @@ Mariona Roca
 
 https://github.com/grannysimons/kalerevolution
 
-[Deploy Link](http://heroku.com)
+### Deploy 
+
+https://grannysimons.github.io/kalerevolution/
